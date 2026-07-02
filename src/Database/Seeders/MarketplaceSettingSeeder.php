@@ -18,7 +18,7 @@ class MarketplaceSettingSeeder extends Seeder
             $files = File::files($marketplaceDir);
             foreach ($files as $file) {
                 if (in_array($file->getExtension(), ['png', 'jpg', 'jpeg', 'gif', 'webp'])) {
-                    $screenshots[] = '/packages/workdo/Timesheet/src/marketplace/' . $file->getFilename();
+                    $screenshots[] = '/packages/local/Timesheet/src/marketplace/' . $file->getFilename();
                 }
             }
         }
@@ -33,7 +33,7 @@ class MarketplaceSettingSeeder extends Seeder
                 'sections' => [
                     'hero' => [
                         'variant' => 'hero1',
-                        'title' => 'Timesheet Module for ERPGo SaaS',
+                        'title' => 'Timesheet Module for Zerp',
                         'subtitle' => 'Track time efficiently with multiple entry methods including manual entry, project-based tracking, and clock in/out functionality.',
                         'primary_button_text' => 'Install Timesheet Module',
                         'primary_button_link' => '#install',
@@ -55,19 +55,19 @@ class MarketplaceSettingSeeder extends Seeder
                                 'title' => 'Multiple Time Entry Methods',
                                 'description' => 'Flexible time tracking with support for manual entry, project-based tracking, and automated clock in/out functionality. Users can choose the most suitable method based on their work style and project requirements with seamless switching between different tracking modes.',
                                 'keyPoints' => ['Manual Time Entry', 'Project-Based Tracking', 'Clock In/Out System', 'Flexible Entry Methods'],
-                                'screenshot' => '/packages/workdo/Timesheet/src/marketplace/image1.png'
+                                'screenshot' => '/packages/local/Timesheet/src/marketplace/image1.png'
                             ],
                             [
                                 'title' => 'Advanced Filtering & Search System',
                                 'description' => 'Comprehensive filtering capabilities allowing users to search and filter timesheets by type, date, user, project, and task. Features include advanced search functionality, date range filtering, and user-specific views for efficient timesheet management.',
                                 'keyPoints' => ['Multi-Criteria Filtering', 'Date Range Selection', 'User-Specific Views', 'Advanced Search'],
-                                'screenshot' => '/packages/workdo/Timesheet/src/marketplace/image2.png'
+                                'screenshot' => '/packages/local/Timesheet/src/marketplace/image2.png'
                             ],
                             [
                                 'title' => 'List & Grid View Management',
                                 'description' => 'Dual viewing modes with detailed list view for comprehensive data display and card-based grid view for visual timesheet management. Both views support sorting, filtering, and bulk operations with responsive design for all device types.',
                                 'keyPoints' => ['Dual View Modes', 'Responsive Design', 'Sorting & Filtering', 'Bulk Operations'],
-                                'screenshot' => '/packages/workdo/Timesheet/src/marketplace/image3.png'
+                                'screenshot' => '/packages/local/Timesheet/src/marketplace/image3.png'
                             ]
                         ]
                     ],

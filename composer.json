@@ -1,6 +1,6 @@
 {
     "name": "zerp/timesheet",
-    "description": "Description for timesheet package",
+    "description": "Employee timesheet tracking module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},
