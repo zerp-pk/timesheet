@@ -32,5 +32,5 @@ participating, you agree to abide by it.
 
 ## Security issues
 
-Do not report security vulnerabilities via public issues — see
+Do not report security vulnerabilities via public issues - see
 [SECURITY.md](SECURITY.md).
